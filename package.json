@@ -1,6 +1,6 @@
 {
   "name": "visualstudio-tslint-formatter",
-  "version": "0.0.1",
+  "version": "0.4.0",
   "description": "Visual studio formatter for TSLint.",
   "scripts": {
     "build": "tsc"

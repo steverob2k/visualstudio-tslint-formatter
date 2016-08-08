@@ -1,0 +1,1 @@
+# visualstudio-tslint-formatter

@@ -4,6 +4,7 @@
     "module": "commonjs"
   },
   "files": [
-    "formatters/visualstudioFormatter.ts"
+    "formatters/visualstudioErrorFormatter.ts",
+    "formatters/visualstudioWarningFormatter.ts"
   ]
 }

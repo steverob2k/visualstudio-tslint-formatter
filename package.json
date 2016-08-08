@@ -1,0 +1,31 @@
+{
+  "name": "visualstudio-tslint-formatter",
+  "version": "0.0.1",
+  "description": "Visual studio formatter for TSLint.",
+  "scripts": {
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/steverob2k/visualstudio-tslint-formatter"
+  },
+  "keywords": [
+    "tslint",
+    "formatter",
+    "visual studio",
+    "Error list"
+  ],
+  "author": "steverob2k",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/steverob2k/visualstudio-tslint-formatter"
+  },
+  "homepage": "https://github.com/steverob2k/visualstudio-tslint-formatter/blob/master/README.md",
+  "peerDependencies": {
+    "tslint": "^3.0.0"
+  },
+  "devDependencies": {
+    "tslint": "^3.11.0",
+    "typescript": "^1.8.10"
+  }
+}

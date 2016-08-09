@@ -14,7 +14,7 @@ var Formatter = (function (_super) {
         return failures.map(this.formatFailure).join("\n") + "\n \n";
     };
     Formatter.prototype.formatFailure = function (failure) {
-        var filePath = ("src/app/" + failure.getFileName()).toString().replace(/\//g, "\\");
+        var filePath = (failure.getFileName()).toString().replace(/\//g, "\\");
         var lineCharNos = failure.getStartPosition().getLineAndCharacter();
         var lineNo = lineCharNos.line;
         var characterNo = lineCharNos.character;

@@ -7,7 +7,7 @@ export class Formatter extends Lint.Formatters.AbstractFormatter {
   }
 
   private formatFailure(failure: Lint.RuleFailure): string {
-    let filePath = ("src/app/" + failure.getFileName()).toString().replace(/\//g, "\\");
+    let filePath = (failure.getFileName()).toString().replace(/\//g, "\\");
     let lineCharNos = failure.getStartPosition().getLineAndCharacter();
     let lineNo = lineCharNos.line;
     let characterNo = lineCharNos.character;

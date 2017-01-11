@@ -1,6 +1,6 @@
 {
   "name": "visualstudio-tslint-formatter",
-  "version": "0.6.0",
+  "version": "0.7.0",
   "description": "Visual studio formatter for TSLint.",
   "scripts": {
     "build": "tsc"
@@ -22,10 +22,10 @@
   },
   "homepage": "https://github.com/steverob2k/visualstudio-tslint-formatter/blob/master/README.md",
   "peerDependencies": {
-    "tslint": "^3.0.0"
+    "tslint": "^4.0.0"
   },
   "devDependencies": {
-    "tslint": "^3.11.0",
-    "typescript": "^1.8.10"
+    "tslint": "^4.0.0",
+    "typescript": "^2.0.0"
   }
 }

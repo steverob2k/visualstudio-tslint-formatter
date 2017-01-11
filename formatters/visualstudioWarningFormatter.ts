@@ -1,4 +1,4 @@
-import * as Lint from "tslint/lib/lint";
+import * as Lint from "tslint";
 
 export class Formatter extends Lint.Formatters.AbstractFormatter {
 

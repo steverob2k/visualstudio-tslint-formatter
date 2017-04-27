@@ -7,12 +7,12 @@ export class Formatter extends Lint.Formatters.AbstractFormatter {
   }
 
   private formatFailure(failure: Lint.RuleFailure): string {
-    let filePath = (failure.getFileName()).toString().replace(/\//g, "\\");
-    let lineCharNos = failure.getStartPosition().getLineAndCharacter();
-    let lineNo = lineCharNos.line;
-    let characterNo = lineCharNos.character;
-    let message = failure.getFailure();
-    let ruleName = failure.getRuleName();
+    const filePath = (failure.getFileName()).toString().replace(/\//g, "\\");
+    const lineCharNos = failure.getStartPosition().getLineAndCharacter();
+    const lineNo = lineCharNos.line;
+    const characterNo = lineCharNos.character;
+    const message = failure.getFailure();
+    const ruleName = failure.getRuleName();
 
     return filePath + "(" + (lineNo + 1) + "," + (characterNo + 1) + "): warning " + ruleName + ": " + message;
 

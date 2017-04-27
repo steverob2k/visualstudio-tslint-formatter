@@ -3,7 +3,8 @@
   "version": "0.8.0",
   "description": "Visual studio formatter for TSLint.",
   "scripts": {
-    "build": "tsc"
+    "build": "tsc",
+    "lint": "tslint formatters/**/*.ts"
   },
   "repository": {
     "type": "git",
@@ -25,6 +26,8 @@
     "tslint": "^5.0.0"
   },
   "devDependencies": {
+    "@types/core-js": "0.9.41",
+    "@types/node": "^7.0.14",
     "tslint": "^5.0.0",
     "typescript": "^2.0.0"
   }
